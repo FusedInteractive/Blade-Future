@@ -16,9 +16,9 @@ class BladeFutureServiceProvider extends ServiceProvider
     {
         if (
             ! $this->app->environment(config('blade-future.environments'))
-            || (
+            && ! (
                 $this->app->runningUnitTests()
-                && config('blade-future.remove_during_tests')
+                && ! config('blade-future.remove_during_tests')
             )
         ) {
             Blade::if('future', fn () => false);

@@ -1,6 +1,7 @@
 {
     "name": "fused/blade-future",
     "description": "Adds a @future directive to Blade to apply special styling to elements to highlight they're for future features.",
+    "license": "MIT",
     "require": {
         "illuminate/view": "^12.0"
     },
