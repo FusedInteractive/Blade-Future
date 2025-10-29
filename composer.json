@@ -1,0 +1,20 @@
+{
+    "name": "fused/blade-future",
+    "description": "Adds a @future directive to Blade to apply special styling to elements to highlight they're for future features.",
+    "require": {
+        "illuminate/view": "^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fused\\BladeFuture\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fused\\BladeFuture\\Tests\\": "tests/"
+        }
+    }
+}
