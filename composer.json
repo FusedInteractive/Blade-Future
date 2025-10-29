@@ -17,5 +17,12 @@
         "psr-4": {
             "Fused\\BladeFuture\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fused\\BladeFuture\\BladeFutureServiceProvider"
+            ]
+        }
     }
 }
