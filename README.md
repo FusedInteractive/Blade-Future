@@ -39,6 +39,8 @@ Blade components work too, but must be a single root element:
 </div>
 ```
 
+If you encounter any issues, make sure to run `php artisan view:clear` to clear out your compiled view cache.
+
 ## Styling
 
 A CSS rule for `x-future` is not included. You must define one yourself. Here's an example you can use:
