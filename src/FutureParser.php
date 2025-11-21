@@ -6,7 +6,7 @@ class FutureParser
 {
     public static function parse(string $value): string
     {
-        if (preg_match('/<([a-z]+)(?![^>]*\/>)[^>]*>/', $value, $matches)) {
+        if (preg_match('/<([a-z0-9]+)(?![^>]*\/>)[^>]*>/', $value, $matches)) {
             return preg_replace('/\<'.$matches[1].'/', '<'.$matches[1].' x-future', $value, 1);
         }
 
