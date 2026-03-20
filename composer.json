@@ -3,10 +3,10 @@
     "description": "Adds a @future directive to Blade to apply special styling to elements to highlight they're for future features.",
     "license": "MIT",
     "require": {
-        "illuminate/view": "^12.0"
+        "illuminate/view": "^12.0|^13.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^10.6"
+        "orchestra/testbench": "^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
